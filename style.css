@@ -1,0 +1,33 @@
+
+/*navigation*/
+
+.navbar {
+  text-transform: uppercase;
+  padding: 0rem 1.5rem;
+  padding-left: 2rem;
+  line-height: 2;
+  box-shadow: 0 3px 7px rgba(0,0,0,.3);
+  font-family: "Jost";
+}
+
+.nav-item {
+  text-transform: uppercase;
+  padding: 0rem 1.2rem
+}
+
+.active {
+  border-bottom: 8px solid #2E986A;
+  color: #2E986A;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #2E986A;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #2E986A;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #131313;
+}
