@@ -3,10 +3,8 @@
 
 .navbar {
   text-transform: uppercase;
-  padding: 0rem 1.5rem;
-  padding-left: 2rem;
-  line-height: 2;
-  box-shadow: 0 3px 7px rgba(0,0,0,.3);
+  padding: 0rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,.25);
   font-family: "Jost";
 }
 
@@ -16,7 +14,7 @@
 }
 
 .active {
-  border-bottom: 8px solid #2E986A;
+  border-bottom: 9px solid #2E986A;
   color: #2E986A;
 }
 
@@ -30,4 +28,19 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: #131313;
+}
+
+.dropdown-menu {
+  margin: 0rem;
+  text-transform: lowercase;
+  min-width: 5rem;
+}
+
+/*galeria*/
+
+#sidebar {
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0,0,0,.25);
+  font-family: "Jost";
+  text-align: center;
 }
