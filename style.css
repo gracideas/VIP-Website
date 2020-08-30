@@ -36,6 +36,11 @@
   text-transform: lowercase;
   min-width: 5rem;
 }
+/*general styles*/
+h1 {
+  text-transform: uppercase;
+  font-family: "Jost";
+}
 
 /*galeria*/
 
@@ -46,4 +51,14 @@
   text-transform: uppercase;
   font-family: "Jost";
   text-align: center;
+}
+
+#sidebar a:hover {
+  color: #2e986a;
+  text-decoration: none;
+}
+
+.option {
+color: #131313;
+font-weight: bold;
 }
