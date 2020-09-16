@@ -1,0 +1,70 @@
+
+/*navigation*/
+
+.navbar {
+  text-transform: uppercase;
+  padding: 0rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,.25);
+  font-family: "Jost";
+  background-color: white;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  padding: 0rem 1.2rem
+}
+
+.active {
+  border-bottom: 9px solid #2E986A;
+  color: #2E986A;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #2E986A;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #2E986A;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #131313;
+}
+
+.dropdown-menu {
+  margin: 0rem;
+  text-transform: lowercase;
+  min-width: 5rem;
+}
+
+/*general styles*/
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Jost";
+  padding: 5px 10px;
+  box-shadow: inset 0 -30px 0 0 rgba(46, 152, 106, 0.6);
+  text-align: center;
+  font-weight: bolder;
+}
+
+/*galeria*/
+
+#sidebar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.25);
+  height: calc(100vh - 50px);
+  background-color: white;
+  text-transform: uppercase;
+  font-family: "Jost";
+  text-align: center;
+}
+
+#sidebar a:hover {
+  color: #2e986a;
+  text-decoration: none;
+}
+
+.option {
+color: #202020;
+font-weight: bold;
+}
