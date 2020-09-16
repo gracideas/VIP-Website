@@ -1,0 +1,23 @@
+{% extends "templatemain.html" %}
+{% block content %}
+<div class="row mx-0" id="gallery">
+  <div class="col-2 d-flex flex-column justify-content-center" id="sidebar" role="navigation">
+      <a class="option p-3" href="#branding">Branding & Design</a>
+      <a class="option p-3" href="#nadruki">Nadruki</a>
+      <a class="option p-3" href="#farby">Farby do drukarek dtg</a>
+  </div><!--sidebar-->
+
+  <div class="col-10 d-flex flex-column justify-content-center" id="gallery-container">
+    <div class="row" id="gallery-content">
+      <div class="col-md-5" id="gallery-image">
+        <img src="static\images\placeholder.png" class="rounded d-block mx-auto" width="370px" height="370px">
+      </div><!--image-->
+
+      <div class="col-md-7 d-flex flex-column justify-content-center p-3" id="gallery-text">
+      <h1>Branding & Design</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum molestie felis id dictum. Integer eget quam quis leo bibendum consectetur. Nullam viverra urna in nibh pharetra lobortis. Suspendisse ac leo turpis. Integer ornare nunc sem. Sed faucibus tortor at feugiat pharetra.</p>
+      </div><!--right text-->
+    </div><!--row-->
+  </div>
+</div>
+  {% endblock %}
