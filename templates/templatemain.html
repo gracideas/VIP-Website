@@ -24,7 +24,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <nav class="navbar navbar-expand-lg navbar-light sticky-top my-0">
-        <a class="navbar-brand mx-3" href="#">
+        <a class="navbar-brand mx-3" href="{{ url_for('home') }}">
         <img src="{{ url_for('static',    filename='images/logobanner.png') }}" alt="Homepage" title="" height="40"></a>
         <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -56,6 +56,7 @@
     </nav>
 
     {% block content %}
+
     {% endblock %}
 
 </body>
