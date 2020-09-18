@@ -1,11 +1,19 @@
+/*general styles*/
+
+body {
+  font-family: "Jost";
+}
+
+h1 {
+text-transform: uppercase;
+}
 
 /*navigation*/
 
 .navbar {
   text-transform: uppercase;
-  padding: 0;
   box-shadow: 0 2px 4px rgba(0,0,0,.25);
-  font-family: "Jost";
+  padding: 0;
   background-color: white;
 }
 
@@ -37,18 +45,17 @@
   min-width: 5rem;
 }
 
-/*general styles*/
-
-
-
 /*galeria*/
+
+#gallery-content {
+  height: calc(100vh - 50px);
+}
 
 #sidebar {
   box-shadow: 0 2px 4px rgba(0,0,0,.25);
   height: calc(100vh - 50px);
   background-color: white;
   text-transform: uppercase;
-  font-family: "Jost";
   text-align: center;
 }
 
@@ -57,14 +64,24 @@
   text-decoration: none;
 }
 
-.option {
+#sidebar .option {
 color: #202020;
 font-weight: bold;
+text-align: center;
 }
 
+#mobile-navigation .option {
+  color: #202020;
+  text-align: center;
+  font-size: 1em;
+}
+
+#mobile-navigation {
+  box-shadow: 0 2px 4px rgba(0,0,0,.25);
+}
+
+
 #gallery-text > h1 {
-  text-transform: uppercase;
-  font-family: "Jost";
   padding: 5px 10px;
   box-shadow: inset 0 -30px 0 0 rgba(46, 152, 106, 0.6);
   text-align: center;
@@ -93,7 +110,6 @@ font-weight: bold;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	font-family: "Jost";
 	color: white;
 
 }
@@ -144,3 +160,52 @@ font-weight: bold;
 }
 
 /*contact page*/
+
+#contact-container > h1 {
+  font-weight: bold;
+}
+
+.contact-details {
+  align-items: center;
+  align-content: center;
+  background-color: gainsboro; /*for testing*/
+  margin-top: 1em;
+  margin-bottom: 1em;
+  flex-shrink: 2;
+}
+
+.contact-icon {
+  text-align: right;
+}
+
+.contact-icon span { /*icon size*/
+  font-size: 3.5em;
+  color: #2E986A;
+}
+
+.contact-title {
+  font-weight: bold;
+}
+
+.contact-text {
+  font-size: 1.2em;
+}
+
+.contact-text p {
+  margin-bottom: 0; 
+}
+
+#contact-social {
+  text-align: center;
+}
+
+
+#contact-container {
+  background-color: rgb(141, 141, 141); /*for testing*/
+  height: calc(100vh - 50px);
+}
+
+#map-container {
+  background-color: white; /*for testing*/
+  height: calc(100vh - 50px);
+}
