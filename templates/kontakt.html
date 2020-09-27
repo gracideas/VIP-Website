@@ -9,9 +9,11 @@
     <div class="col-xl-6" id="contact-container">
         <div class="mx-sm-5 mx-1">
 
+        <header>
         <h1 class="text-center pt-3">Kontakt</h1>
-
-        <div class="contact-details row">
+        </header>
+        
+        <div class="contact-details row px-sm-5">
             <div class="contact-icon col-2">
                 <span class="material-icons">home</span>
             </div>
@@ -22,7 +24,7 @@
             </div>
         </div>
 
-        <div class="contact-details row">
+        <div class="contact-details row px-sm-5">
             <div class="contact-icon col-2">
                 <span class="material-icons">phone</span>
             </div>
@@ -33,7 +35,7 @@
             </div>
         </div>
 
-        <div class="contact-details row">
+        <div class="contact-details row px-sm-5">
             <div class="contact-icon col-2">
                 <span class="material-icons">mail</span>
             </div>
@@ -43,8 +45,8 @@
             </div>
         </div>
 
-        <div class="contact-details row">
-            <div class="col-6" id="contact-invoice">
+        <div class="contact-details row px-sm-5">
+            <div class="col-7" id="contact-invoice">
                 D.P. COLOR Sp. z o.o.
                 <br>
                 NIP: 5342488817
@@ -54,10 +56,13 @@
                 BDO: 000079088
             </div>
 
-            <div class="col-6" id="contact-social">
-                test
-                <br>
-                test
+            <div class="col-5" id="contact-social">
+                <a href="">
+                    <img src="{{ url_for('static', filename='images/instagram.svg') }}" alt="Instagram">
+                </a>
+                <a href="">
+                    <img src="{{ url_for('static', filename='images/facebook.svg') }}" alt="Facebook">
+                </a>
             </div>
 
         </div>
