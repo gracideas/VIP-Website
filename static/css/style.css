@@ -161,17 +161,13 @@ text-align: center;
 
 /*contact page*/
 
-#contact-container > h1 {
-  font-weight: bold;
+#contact-header {
+  font-weight: 700;
 }
 
 .contact-details {
   align-items: center;
   align-content: center;
-  background-color: gainsboro; /*for testing*/
-  margin-top: 1em;
-  margin-bottom: 1em;
-  flex-shrink: 2;
 }
 
 .contact-icon {
@@ -199,15 +195,16 @@ text-align: center;
   text-align: center;
 }
 
+#contact-content {
+  height: calc(100vh - 50px);/*don't change this or the page will get a weird overflow, please*/
+}
 
 #contact-container {
-  background-color: rgb(141, 141, 141); /*for testing*/
-  height: calc(100vh - 50px);
+  background-color: white;
 }
 
 #map-container {
-  background-color: white; /*for testing*/
-  height: calc(100vh - 50px);
+  background-color: rgb(167, 252, 159); /*for testing*/
 }
 
 #contact-social > a > img {

@@ -1,20 +1,19 @@
 {% extends "templatemain.html" %}
 {% block content %}
-<div class="row container-fluid px-0 mx-0" id="contact-content">
+<div class="row mx-0" id="contact-content">
     <div class="col-xl-6 d-none d-xl-block" id="map-container">
     <!--Hidden in Extra Large viewports-->
-
+penis
     </div><!--map-->
 
-    <div class="col-xl-6" id="contact-container">
-        <div class="mx-sm-5 mx-1">
-
+    <div class="col-xl-6 d-lg-flex flex-column py-sm-1 justify-content-center" id="contact-container">
+        <div class="mx-sm-5">
         <header>
-        <h1 class="text-center pt-3">Kontakt</h1>
+        <h1 class="text-center" id="contact-header">Kontakt</h1>
         </header>
         
         <div class="contact-details row px-sm-5">
-            <div class="contact-icon col-2">
+            <div class="contact-icon">
                 <span class="material-icons">home</span>
             </div>
 
@@ -25,18 +24,18 @@
         </div>
 
         <div class="contact-details row px-sm-5">
-            <div class="contact-icon col-2">
+            <div class="contact-icon">
                 <span class="material-icons">phone</span>
             </div>
 
-            <div class="contact-text col-10">
+            <div class="contact-text col">
                 <p class="contact-title">535 595 922 | 535 383 100</p>
                 <p>Pon-Pt 8-16, Sob 8-12</p>
             </div>
         </div>
 
         <div class="contact-details row px-sm-5">
-            <div class="contact-icon col-2">
+            <div class="contact-icon">
                 <span class="material-icons">mail</span>
             </div>
 
@@ -46,7 +45,7 @@
         </div>
 
         <div class="contact-details row px-sm-5">
-            <div class="col-7" id="contact-invoice">
+            <span class="col-8" id="contact-invoice">
                 D.P. COLOR Sp. z o.o.
                 <br>
                 NIP: 5342488817
@@ -54,17 +53,16 @@
                 REGON: 146391071
                 <br>
                 BDO: 000079088
-            </div>
+            </span>
 
-            <div class="col-5" id="contact-social">
-                <a href="">
+            <div class="col-4" id="contact-social">
+                <a href="http://facebook.com/vipkoszulka">
                     <img src="{{ url_for('static', filename='images/instagram.svg') }}" alt="Instagram">
                 </a>
-                <a href="">
+                <a href="http://instagram.com/vipkoszulka">
                     <img src="{{ url_for('static', filename='images/facebook.svg') }}" alt="Facebook">
                 </a>
             </div>
-
         </div>
 
         </div>
