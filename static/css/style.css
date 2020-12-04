@@ -8,6 +8,18 @@ h1 {
 text-transform: uppercase;
 }
 
+footer a {
+  color: #2e986a;
+}
+
+footer a:hover {
+  color: #227551;
+}
+
+footer h2 {
+  text-transform: uppercase;
+}
+
 /*navigation*/
 
 .navbar {
@@ -90,7 +102,32 @@ text-align: center;
 
 /*homepage*/
 
+#hero-banner > h1 {
+  font-weight: bolder;
+}
 
+#card-container > h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #2E986A;
+  border-color: #2E986A;
+}
+
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #29865e;
+  border-color: #29865e;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: rgba(34, 117, 81, .5);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+box-shadow: 0 0 0 .2rem rgba(34, 117, 81, .5);
+}
 
 /*contact page*/
 
